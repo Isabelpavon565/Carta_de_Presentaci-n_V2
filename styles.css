@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f4f0;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: rgb(188, 72, 14);
+  text-align: center;
+}
+
+#card_body {
+  border: solid 4px black;
+  width: 450px;
+  min-height: 450px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+
+#card_body p {
+  font-size: 20px;
+  text-align: center;
+  color: rgb(27, 19, 19);
+}
+
+#card_body h2 {
+  color: rgb(158, 68, 23);
+  text-align: center;
+}
+
+.divisor {
+  border: none;
+  border-top: 2px solid rgb(158, 68, 23);
+  margin: 25px 0;
+}
+
+.formulario-carta {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: left;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.campo input,
+.campo select,
+.campo textarea {
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid #888;
+  border-radius: 4px;
+}
+
+.btn-enviar {
+  margin-top: 8px;
+  padding: 10px;
+  font-size: 16px;
+  background-color: rgb(188, 72, 14);
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

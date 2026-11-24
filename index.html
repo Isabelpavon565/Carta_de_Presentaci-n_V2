@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>CARTA DE PRESENTACION</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="card_body">
+    <h1>CARTA DE PRESENTACION</h1>
+    <p><strong>Nombre: </strong>Pavon Jajoy Diana Isabel</p>
+    <p><strong>Correo: </strong>isabelpavon565@gmail.com</p>
+    <p><strong>Teléfono: </strong>0990063264</p>
+    <p><strong>Dirección: </strong>km: 7</p>
+
+    <h2>Perfil Profesional</h2>
+    <p>Estudiante de la carrera Desarrollo de Software del Instituto Tecnologico Alberto Enriquez</p>
+
+    <hr class="divisor">
+
+    <h2>Formulario de Contacto</h2>
+    <form class="formulario-carta" action="#" method="post">
+      <div class="campo">
+        <label for="nombre_visitante"><strong>Nombre:</strong></label>
+        <input type="text" id="nombre_visitante" name="nombre_visitante" placeholder="Escribe tu nombre" required>
+      </div>
+
+      <div class="campo">
+        <label for="correo_visitante"><strong>Correo electrónico:</strong></label>
+        <input type="email" id="correo_visitante" name="correo_visitante" placeholder="ejemplo@correo.com" required>
+      </div>
+
+      <div class="campo">
+        <label for="tipo_contacto"><strong>Selecciona una opción:</strong></label>
+        <select id="tipo_contacto" name="tipo_contacto">
+          <option value="">Elige una opción</option>
+          <option value="practicas">Prácticas preprofesionales</option>
+          <option value="proyecto">Consulta de proyecto</option>
+          <option value="contacto">Mensaje general</option>
+        </select>
+      </div>
+
+      <div class="campo">
+        <label for="mensaje"><strong>Mensaje:</strong></label>
+        <textarea id="mensaje" name="mensaje" rows="3" placeholder="Escribe tu mensaje aquí..."></textarea>
+      </div>
+
+      <button type="submit" class="btn-enviar">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
